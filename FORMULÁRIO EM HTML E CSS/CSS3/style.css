@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: ;
+    
+}
+
+#titulo{
+    
+    font-family: sans-serif;
+    color: rgb(189, 40, 156);
+    margin-left: 0%;
+    text-align: center;
+    
+
+}
+
+#subtitulo{
+    margin-bottom: 5%;
+    font-family: sans-serif;
+    color:rgb(189, 40, 156);
+    margin-left: 0%;
+    text-align: center;
+    font-size: 14px;
+}
+
+fieldset{
+    border: 0;
+
+}
+
+body{
+    background-color: rgb(228, 228, 241);
+    font-family: sans-serif;
+    font-size: 1em;
+    color: rgb(189, 40, 156);
+    margin-top: 10%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 10%;
+    justify-content: center;
+}
+
+input, select, textarea, button{
+    border-radius: 5px;
+}
+
+button{
+    font-family: sans-serif;
+    color: rgb(244, 242, 247);
+    background-color: rgb(189, 40, 156);
+    
+}
+
+#caixa{
+    width: 480px;
+    padding: 30px;
+    border: 1px solid#ccc;
+    border-radius: 10px;
+    background-color: rgb(177, 233, 233);
+    box-shadow:  10px 5px 10px rgba(0, 0, 0, 0.1);
+    margin: 0%;
+}
+    

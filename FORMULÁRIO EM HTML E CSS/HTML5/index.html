@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Hummenighy Wagner">
+<link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+<title>Formulário</title>
+</head>
+<body>
+    
+        <div id="caixa">
+
+            <div id="titulo">
+                <h1>Ficha de Cadastro</h1>
+            
+            </div>
+            <div id="subtitulo">
+                <h2>
+                    <p>Informe os seus dados</p>
+                </h2>
+            </div>
+            
+            
+            
+            <form action="/processamentodedados">
+            <fieldset>
+            <div class="recrutador">
+                <label for="nome"><strong>Nome:</strong></label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+            
+            <br>
+            <div class="recrutador">
+                <label for="sobrenome"><strong>Sobrenome:</strong></label>
+                <input type="text" name="sobrenome" id="sobrenome" required>
+            </div>
+            
+            <br>
+            <div class="recrutador">
+                <label for="empresa"><strong>Idade:</strong></label>
+                <input type="text" name="empresa" id="empresa" required>
+            </div>
+            <br>
+            <div class="recrutador">
+                <label for="telefone"><strong>Whatsapp:</strong></label>
+                <input type="number" name="whatsapp" id="whatsapp" required>
+            </div>
+            <br>
+            <div class="recrutador">
+                <label for="empresa"><strong>Empresa:</strong></label>
+                <input type="text" name="empresa" id="empresa" required>
+            </div>
+            
+            <br>
+            <div class="recrutador">
+                <label for="cargo"><strong>Cargo:</strong></label>
+                <input type="text" name="cargo" id="cargo" required>
+            </div>
+            
+            </fieldset>
+            
+            <br>
+            
+            <div class="informacoes">
+                <label
+            for="profissional"> <strong>Profissional que você procura:</strong>
+            <br>
+            <input type="radio" name="profissional" value="estagiágio">Estagiário
+                </label>
+                <label
+            for="profissional">
+            <input type="radio" name="profissional" value="Desenvolvedorjunior">Desenvolvedor Junior
+                </label>
+            </div>
+            
+            <br>
+            
+            <div class="informacoes">
+                <label
+            for="tipo-de-profissional"> <strong>Área de atuação:</strong>
+            <br>
+            <input type="radio" name="tipo-de-profissional" value="front-end">Front-End
+                </label>
+                <label
+            for="tipo-de-profissional">
+            <input type="radio" name="tipo-de-profissional" value="back-end">Back-End
+                <label
+            for="tipo-de-profissional">
+            <input type="radio" name="tipo-de-profissional" value="mobile">Mobile
+                </label>
+            
+                <label
+            for="tipo-de-profissional">
+            <input type="radio" name="tipo-de-profissional" value="full-stack">Full-Stack
+                </label>
+            </div>
+            
+            <br>
+            
+            <div class="informacoes">
+            <label> <strong>Modalidade de trabalho a qual recrutamos:</strong></label>
+            <select
+                id="opções-de-trabalho">
+                <option selected disabled value="--">Selecione</option>
+                <option>Home Office</option>
+                <option>Híbrido</option>
+                <option>Presencial</option>
+            </select>
+            
+            </div>
+            
+            <br>
+            <br>
+            
+            <div class="informacoes">
+            <label> <strong>Conhecimento das tecnologias que precisamos:</strong></label>
+            <br>
+            <br>
+                <input type="checkbox" id="tecnologia1" name="tecnologia1" value="Html">
+            <label for="tecnologia1">HTML
+                   <p>(Básico) <input type="range"> (Avançado)</p>
+            </label>
+                <input type="checkbox" id="tecnologia" name="tecnolgia2" value="CSS">
+            <label for="CSS">CSS
+                <p>(Básico) <input type="range"> (Avançado)</p>
+            </label>
+                <input type="checkbox" id="javaScript" name="javaScript" value="javaScript">
+            <label for="javaScript">JavaScript
+                <p>(Básico) <input type="range"> (Avançado)</p>
+            </label>
+                <input type="checkbox" id="java" name="java" value="java" >
+            <label for="java">JAVA
+                <p>(Básico) <input type="range"> (Avançado)</p>
+            </label>
+                <input type="checkbox" id="sql" name="sql" value="sql">
+            <label for="sql">SQL
+                <p>(Básico) <input type="range"> (Avançado)</p>
+            </label>
+            </div>
+            <br>
+            <div class="informacoes">
+            <label for="textbox"><strong>O que precisamos mais de você:</strong></label>
+            <br>
+            <br>
+            <textarea name="textbox" id="textbox" cols="60" rows="10"></textarea></div>
+            
+            
+            <button type="submit">Enviar</button>
+            
+        </div>
+</form>
+    
+</body>
+</html>
